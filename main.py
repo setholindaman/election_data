@@ -4,10 +4,10 @@ import csv
 from operator import itemgetter
 
 # set path for textfile
-pollData = os.path.join("..", "PyPoll", "election_data.csv")
+pollData = os.path.join("Resources", "election_data.csv")
 
 # set output path for poll analysis
-outputFile = "Election Results.txt"
+outputFile = os.path.join("Results","Election Results.txt")
 
 # declare variables
 votes = 0
